@@ -106,6 +106,9 @@
         border: none;
         color: $auth-button-text;
         background-color: $auth-button-bg;
+        &:disabled {
+            background-color: #6e6e6e;
+        }
     }
 
     &__info {
